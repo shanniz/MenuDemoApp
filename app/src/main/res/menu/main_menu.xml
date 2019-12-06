@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itemFile" android:title="File" >
+        <menu>
+            <item android:id="@+id/itemCreateFile" android:title="Create New" />
+            <item android:id="@+id/itemOpenFile" android:title="Open File" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/itemCopy" android:title="Copy" />
+    <item android:id="@+id/itemPaste" android:title="Paste" />
+
+</menu>
